@@ -1,0 +1,21 @@
+{
+	"name": "max-character-count",
+	"version": "1.0.0",
+	"description": "A little utility to estimate the maximum number of characters tthat can fit in a text box",
+	"main": "plugin.sketchplugin",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "skpm build",
+		"publish": "skpm publish"
+	},
+	"keywords": [
+		"sketch",
+		"plugin"
+	],
+	"author": "Kevin Cannon",
+	"license": "ISC",
+	"manifest": "src/manifest.json",
+	"devDependencies": {
+		"skpm": "^0.6.1"
+	}
+}

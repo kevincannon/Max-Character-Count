@@ -1,0 +1,21 @@
+{
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "commands": [
+    {
+      "name": "my-command",
+      "identifier": "my-command-identifier",
+      "script": "my-command.cocoascript"
+    }
+  ],
+  "menu": {
+    "title": "max-character-count",
+    "items": [
+      "my-command-identifier"
+    ]
+  },
+  "version": "1.0.0",
+  "description": "A little utility to estimate the maximum number of characters tthat can fit in a text box",
+  "name": "max-character-count",
+  "disableCocoaScriptPreprocessor": true
+}
